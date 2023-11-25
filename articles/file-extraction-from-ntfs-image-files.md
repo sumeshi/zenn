@@ -1,5 +1,5 @@
 ---
-title: "ntfsdump, ntfsfind を用いたイメージからのファイル抽出"
+title: "ntfsdump, ntfsfind を用いたイメージファイルからのアーティファクト抽出"
 emoji: "💾"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "security", "ntfs", "windows", "forensics"]
