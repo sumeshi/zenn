@@ -1,0 +1,18 @@
+{
+    "name": "dev",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "/usr/bin/fish ./.devcontainer/postCreateCommands.fish",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "negokaz.zenn-editor",
+                "davidanson.vscode-markdownlint",
+                "yzhang.markdown-all-in-one"
+            ],
+            "settings": {
+            }
+        }
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/node/workspace,type=bind",
+    "workspaceFolder": "/home/node/workspace"
+}
